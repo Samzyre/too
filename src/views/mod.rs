@@ -23,6 +23,11 @@ pub use collapsible::{collapsible, Collapsible, CollapsibleClass, CollapsibleSty
 mod constrain;
 pub use constrain::{Constrain, Unconstrained};
 
+mod debug_highlight;
+pub use debug_highlight::{
+    debug_highlight, DebugHighlight, DebugHighlightClass, DebugHighlightStyle,
+};
+
 mod expander;
 pub use expander::{expander, separator, Expander, Separator, SeparatorClass, SeparatorStyle};
 
